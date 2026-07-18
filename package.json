@@ -15,7 +15,8 @@
   "files": [
     "dist",
     "README.md",
-    "PORTING_NOTES.md"
+    "PORTING_NOTES.md",
+    "LICENSE"
   ],
   "scripts": {
     "build": "tsc -p tsconfig.build.json",

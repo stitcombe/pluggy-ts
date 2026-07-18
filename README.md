@@ -283,3 +283,9 @@ npm run build     # emit dist/ (ESM + .d.ts); also runs on `npm pack`
 - `dist/` — build output (generated; what the package ships).
 - `PORTING_NOTES.md` — module mapping, API conventions, and every
   deliberate deviation from the Python original.
+
+## License
+
+MIT — see [LICENSE](LICENSE). pluggy-ts is a port of
+[pluggy](https://github.com/pytest-dev/pluggy), also MIT-licensed, copyright
+(c) 2015 Holger Krekel.
