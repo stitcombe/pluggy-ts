@@ -4,6 +4,11 @@ This is a faithful port of [pluggy](https://github.com/pytest-dev/pluggy)
 (`src/pluggy/*.py`) and its complete unit test suite (`testing/*.py`) to
 TypeScript, running under [vitest](https://vitest.dev).
 
+This port was completed by Claude Fable 5, based on
+[pytest-dev/pluggy](https://github.com/pytest-dev/pluggy) commit
+[`c1a5f3ea743c462595b77ecb866a70569e25c901`](https://github.com/pytest-dev/pluggy/commit/c1a5f3ea743c462595b77ecb866a70569e25c901)
+(`1.6.0-146-gc1a5f3e`).
+
 ## Module mapping
 
 | Python              | TypeScript          |
