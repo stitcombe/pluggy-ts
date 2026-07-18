@@ -1,0 +1,42 @@
+{
+  "name": "pluggy-ts",
+  "version": "1.0.0",
+  "description": "TypeScript port of the pluggy plugin and hook calling framework",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    },
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "PORTING_NOTES.md"
+  ],
+  "scripts": {
+    "build": "tsc -p tsconfig.build.json",
+    "clean": "rm -rf dist",
+    "prepack": "npm run clean && npm run build",
+    "prepare": "npm run build",
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit"
+  },
+  "keywords": [
+    "plugin",
+    "hooks",
+    "pluggy",
+    "extensibility"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "devDependencies": {
+    "typescript": "^5.5.0",
+    "vitest": "^2.1.0"
+  }
+}
